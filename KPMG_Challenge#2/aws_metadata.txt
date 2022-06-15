@@ -1,0 +1,1 @@
+aws ec2 describe-instances --instance-ids i-<Instance_ID>  --output json 
