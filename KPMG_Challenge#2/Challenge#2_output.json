@@ -1,0 +1,230 @@
+Preparing your terminal...
+[cloudshell-user@ip-10-0-142-42 ~]$ Try these commands to get started:
+aws help  or  aws <command> help  or  aws <command> --cli-auto-prompt
+[cloudshell-user@ip-10-0-142-42 ~]$ aws ec2 describe-instances --instance-ids i-03d921d844048b6b0  --output json
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0c1bc246476a5572b",
+                    "InstanceId": "i-03d921d844048b6b0",
+                    "InstanceType": "t2.micro",
+                    "LaunchTime": "2022-06-15T18:25:15+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "eu-west-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-36-36.eu-west-1.compute.internal",
+                    "PrivateIpAddress": "172.31.36.36",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-46-137-4-165.eu-west-1.compute.amazonaws.com",
+                    "PublicIpAddress": "46.137.4.165",
+                    "State": {
+                        "Code": 0,
+                        "Name": "pending"
+                    },
+:...skipping...
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0c1bc246476a5572b",
+                    "InstanceId": "i-03d921d844048b6b0",
+                    "InstanceType": "t2.micro",
+                    "LaunchTime": "2022-06-15T18:25:15+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "eu-west-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-36-36.eu-west-1.compute.internal",
+                    "PrivateIpAddress": "172.31.36.36",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-46-137-4-165.eu-west-1.compute.amazonaws.com",
+                    "PublicIpAddress": "46.137.4.165",
+                    "State": {
+                        "Code": 0,
+                        "Name": "pending"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-4a0a8810",
+                    "VpcId": "vpc-a3f0e7c5",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2022-06-15T18:25:16+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attaching",
+                                "VolumeId": "vol-038da6b6f5fbbbd87"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-46-137-4-165.eu-west-1.compute.amazonaws.com",
+                                "PublicIp": "46.137.4.165"
+                            },
+:...skipping...
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0c1bc246476a5572b",
+                    "InstanceId": "i-03d921d844048b6b0",
+                    "InstanceType": "t2.micro",
+                    "LaunchTime": "2022-06-15T18:25:15+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "eu-west-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-36-36.eu-west-1.compute.internal",
+                    "PrivateIpAddress": "172.31.36.36",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-46-137-4-165.eu-west-1.compute.amazonaws.com",
+                    "PublicIpAddress": "46.137.4.165",
+                    "State": {
+                        "Code": 0,
+                        "Name": "pending"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-4a0a8810",
+                    "VpcId": "vpc-a3f0e7c5",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2022-06-15T18:25:16+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attaching",
+                                "VolumeId": "vol-038da6b6f5fbbbd87"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-46-137-4-165.eu-west-1.compute.amazonaws.com",
+                                "PublicIp": "46.137.4.165"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2022-06-15T18:25:15+00:00",
+                                "AttachmentId": "eni-attach-024faceae88a49d07",
+                                "DeleteOnTermination": true,
+:...skipping...
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0c1bc246476a5572b",
+                    "InstanceId": "i-03d921d844048b6b0",
+                    "InstanceType": "t2.micro",
+                    "LaunchTime": "2022-06-15T18:25:15+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0c1bc246476a5572b",
+                    "InstanceId": "i-03d921d844048b6b0",
+                    "InstanceType": "t2.micro",
+                    "LaunchTime": "2022-06-15T18:25:15+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "eu-west-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-36-36.eu-west-1.compute.internal",
+                    "PrivateIpAddress": "172.31.36.36",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-46-137-4-165.eu-west-1.compute.amazonaws.com",
+                    "PublicIpAddress": "46.137.4.165",
+                    "State": {
+                        "Code": 0,
+                        "Name": "pending"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-4a0a8810",
+                    "VpcId": "vpc-a3f0e7c5",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2022-06-15T18:25:16+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attaching",
+                                "VolumeId": "vol-038da6b6f5fbbbd87"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-46-137-4-165.eu-west-1.compute.amazonaws.com",
+                                "PublicIp": "46.137.4.165"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2022-06-15T18:25:15+00:00",
+                                "AttachmentId": "eni-attach-024faceae88a49d07",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attaching",
+                                "NetworkCardIndex": 0
+:
